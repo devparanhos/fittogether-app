@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <string name="title_welcome">Bem-vindo a Fit Together</string>
+    <string name="subtitle_welcome">Encontre um parceiro para se exercitar porque treinar Together é muito melhor que sozinho</string>
+    <string name="button_begin">Começar</string>
+    <string name="label_already_has_account">Já possui um conta?</string>
+    <string name="label_enter_here">Entre aqui</string>
+</resources>
