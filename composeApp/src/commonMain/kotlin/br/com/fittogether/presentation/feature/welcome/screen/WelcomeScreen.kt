@@ -22,9 +22,11 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+
 import br.com.fittogether.presentation.component.button.DefaultButton
 import br.com.fittogether.presentation.ui.color.Primary
 import br.com.fittogether.presentation.ui.color.Secondary
+
 import fittogether.composeapp.generated.resources.Res
 import fittogether.composeapp.generated.resources.button_begin
 import fittogether.composeapp.generated.resources.label_already_has_account
@@ -32,6 +34,7 @@ import fittogether.composeapp.generated.resources.label_enter_here
 import fittogether.composeapp.generated.resources.subtitle_welcome
 import fittogether.composeapp.generated.resources.title_welcome
 import fittogether.composeapp.generated.resources.welcome_background
+
 import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.resources.stringResource
 

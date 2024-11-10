@@ -12,4 +12,7 @@ sealed class StartRoutes {
 
     @Serializable
     data object Onboarding : StartRoutes()
+
+    @Serializable
+    data object Start : StartRoutes()
 }

@@ -47,16 +47,16 @@ import org.jetbrains.compose.resources.painterResource
 
 @Composable
 fun OnboardingScreen(
-    navigateRegister : () -> Unit
+    navigateToStart : () -> Unit
 ) {
     OnboardingContent(
-        navigateRegister = navigateRegister
+        navigateToStart = navigateToStart
     )
 }
 
 @Composable
 fun OnboardingContent(
-    navigateRegister : () -> Unit
+    navigateToStart : () -> Unit
 ) {
     val pages = rememberPagerState(pageCount = { OnboardingPages.entries.size })
     var currentOnboarding by mutableStateOf(OnboardingPages.getOnboardingPage(0))
@@ -95,7 +95,7 @@ fun OnboardingContent(
                     },
                     onClick = {
                         if (pages.currentPage == pages.pageCount - 1) {
-                            navigateRegister()
+                            navigateToStart()
                         } else {
                             coroutine.launch {
                                 currentOnboarding = OnboardingPages.getOnboardingPage(pages.currentPage + 1)
